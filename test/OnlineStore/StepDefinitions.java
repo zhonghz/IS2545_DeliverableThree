@@ -242,6 +242,7 @@ public class StepDefinitions {
     @Then("I should still see some products displaying in the result")
     public void displayResult() {
         wait = new WebDriverWait(driver, 15);
+        //Only when there is product return, css=div.product_grid_display.group will appear
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.product_grid_display.group")));
         driver.findElement(By.cssSelector("h2.prodtitle"));      
     }

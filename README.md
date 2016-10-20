@@ -5,57 +5,58 @@ At the beginning, when I download NetBeans project from github, all my tests ski
 When I began to run my tests, some of my tests failed. I tried to figure out whether this is because I get the wrong element or the driver ran so fast that it didn't wait for the page to load. Then, I set the break point in StepDefinition.java and then debug test file to run my code step by step. After doing this, I knew the problem is that the driver didn't wait enough time. Then I use wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xxx))) to let the driver wait until the element appear and then do the next step. In some cases, there is no specific element appearing to define the waiting time, so I use Thread.sleep() to force the driver to wait. When the driver waits enough time, all my tests passed.
 
 1. User Story:
-    As a user
-    I want to use my shopping cart
-    So that I can get the information before checkout
+    As a user,
+    I want to use my shopping cart,
+    So that I can get the information before checkout.
 
-(1) Given that I am on iPhone 5 product page
-    When I add an iPhone 5 and click check out
-    Then the iPhone 5 is added to the shopping cart
+(1) Given that I am on iPhone 5 product page,
+    When I add an iPhone 5 and click check out,
+    Then the iPhone 5 is added to the shopping cart.
 
-(2) Given that I am on iPhone 5 product page
-    When I add an iPhone 5 and continue shopping
-    Then I will stay in current page and iPhone 5 is added to the shopping cart
+(2) Given that I am on iPhone 5 product page,
+    When I add an iPhone 5 and continue shopping,
+    Then I will stay in current page and iPhone 5 is added to the shopping cart.
 
-(3) Given a shopping cart with only one Magic Mouse
-    When I remove a Magic Mouse
-    Then the Magic Mouse should not appear in shopping cart
+(3) Given a shopping cart with only one Magic Mouse,
+    When I remove a Magic Mouse,
+    Then the Magic Mouse should not appear in shopping cart.
 
-(4) Given a shopping cart with an iPhone 5
-    When I increase the quantity of iphone 5 from 1 to 2
-    Then iPhone 5 quantity and total should be updated
+(4) Given a shopping cart with an iPhone 5,
+    When I increase the quantity of iphone 5 from 1 to 2,
+    Then iPhone 5 quantity and total should be updated.
+
 2. User Story:
-    As a user
-    I want to log in
-    So that I can access my shopping account
+    As a user,
+    I want to log in,
+    So that I can access my shopping account.
 
 Scenarios:
-(1) Given log in page of the e-commerce website
-    When I log in with correct username and password
-    Then I should see log out button
+(1) Given log in page of the e-commerce website,
+    When I log in with correct username and password,
+    Then I should see log out button.
 
-(2)	Given log in page of the e-commerce website
-    When I log in with correct username and incorrect password
-    Then an error message should appear
+(2)	Given log in page of the e-commerce website,
+    When I log in with correct username and incorrect password,
+    Then an error message should appear.
 
-(3)	Given log in page of the e-commerce website
-    When I log in without username and password
-    Then a notice message should appear
+(3)	Given log in page of the e-commerce website,
+    When I log in without username and password,
+    Then a notice message should appear.
 
 3. User Story:
-    As a user
-    I want to search product
-    So that I can easily find the product I want
+    As a user,
+    I want to search product,
+    So that I can easily find the product I want.
 
 Scenarios:
-(1) Given a search box on home page of the e-commerce website
-    When I search magic mouse
-    Then I should see the product listed in the result
+(1) Given home page of the e-commerce website,
+    When I search magic mouse,
+    Then I should see the product listed in the result.
 
-(2) Given a search box on home page of the e-commerce website
-    When I search iphone7
-    Then I should see the notice of nothing matched
+(2) Given home page of the e-commerce website,
+    When I search iphone7,
+    Then I should see the notice of nothing matched.
 
-(3) Given a search box on home page of the e-commerce website
-    When I search with empty search box
-    Then I should still see some products displaying in the result
+(3) Given home page of the e-commerce website,
+    When I search with empty search box,
+    Then I should still see some products displaying in the result.
