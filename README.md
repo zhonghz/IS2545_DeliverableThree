@@ -1,1 +1,5 @@
 # IS2545_DeliverableThree
+
+At the beginning, when I download NetBeans project from github, all my tests skipped. I thought it was caused by incompatible Firefox driver. Then I tried to use ChromeDriver, SafariDriver and HtmlUnitDriver, but all my tests were still skipped. Then I randomly click test file "StepDefinition.java" and then run "TestRunner.java", I saw the error information indicating that there is something wrong with the gecko driver. After doing some research, I figured out that Mac and Windows are using different gecko driver. I get test running by changing the path of gecko driver and using gecko driver for Mac.
+
+When I began to run my tests, some of my tests failed. I tried to figure out whether this is because I get the wrong element or the driver ran so fast that it didn't wait for the page to load. Then, I set the break point in StepDefinition.java and then debug test file to run my code step by step. After doing this, I knew the problem is that the driver didn't wait enough time. 
