@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="2" hostname="ZhideMacBook-Pro.local" name="OnlineStore.TestRunner" skipped="0" tests="60" time="123.929" timestamp="2016-10-20T05:51:49">
+<testsuite errors="0" failures="0" hostname="ZhideMacBook-Pro.local" name="OnlineStore.TestRunner" skipped="0" tests="60" time="104.569" timestamp="2016-10-20T13:40:54">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -66,7 +66,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner OnlineStore.TestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Huizhi/IS2545_DeliverableThree/build/test/results/TEST-OnlineStore.TestRunner.xml crashfile=/Users/Huizhi/IS2545_DeliverableThree/build/junitvmwatcher202357365020316872.properties propsfile=/Users/Huizhi/IS2545_DeliverableThree/build/junit4165585412862607900.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner OnlineStore.TestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Huizhi/IS2545_DeliverableThree/build/test/results/TEST-OnlineStore.TestRunner.xml crashfile=/Users/Huizhi/IS2545_DeliverableThree/build/junitvmwatcher3231337442948667170.properties propsfile=/Users/Huizhi/IS2545_DeliverableThree/build/junit5796207842159133437.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -115,7 +115,7 @@
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.maven-pom" value="" />
-    <property name="javac.includesfile.binary" value="/Users/Huizhi/IS2545_DeliverableThree/null1595199338" />
+    <property name="javac.includesfile.binary" value="/Users/Huizhi/IS2545_DeliverableThree/null1066643694" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="true" />
     <property name="javac.test.processorpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar:libs/selenium-server-standalone-3.0.0.jar:build/classes:/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/platform/modules/ext/junit-4.12.jar:/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/platform/modules/ext/hamcrest-core-1.3.jar" />
@@ -454,195 +454,173 @@
   <testcase classname="Scenario: Correct username and password" name="Given log in page of the e-commerce website" time="0.0" />
   <testcase classname="Scenario: Correct username and password" name="When I log in with correct username and password" time="0.0" />
   <testcase classname="Scenario: Correct username and password" name="Then I should see log out button" time="0.0" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Correct username and password" time="12.247" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Correct username and password" time="6.534" />
   <testcase classname="Scenario: Correct username and incorrect password" name="Given log in page of the e-commerce website" time="0.0" />
   <testcase classname="Scenario: Correct username and incorrect password" name="When I log in with correct username and incorrect password" time="0.0" />
-  <testcase classname="Scenario: Correct username and incorrect password" name="Then an error message should appear" time="0.001" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Correct username and incorrect password" time="9.839" />
+  <testcase classname="Scenario: Correct username and incorrect password" name="Then an error message should appear" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Correct username and incorrect password" time="7.207" />
   <testcase classname="Scenario: Correct username and empty password" name="Given log in page of the e-commerce website" time="0.0" />
-  <testcase classname="Scenario: Correct username and empty password" name="When I log in without username and password" time="0.001" />
-  <testcase classname="Scenario: Correct username and empty password" name="Then a notice message should appear" time="0.002">
-    <failure message="expected:&lt;[Please enter your username and password].&gt; but was:&lt;[ERROR: Login failed because your IP address has been blocked. Please contact the administrator].&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;[Please enter your username and password].&gt; but was:&lt;[ERROR: Login failed because your IP address has been blocked. Please contact the administrator].&gt;
-	at OnlineStore.StepDefinitions.checkNotice(StepDefinitions.java:196)
-	at ✽.Then a notice message should appear(OnlineStore/LogIn.feature:21)
-</failure>
-  </testcase>
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Correct username and empty password" time="6.742">
-    <failure message="expected:&lt;[Please enter your username and password].&gt; but was:&lt;[ERROR: Login failed because your IP address has been blocked. Please contact the administrator].&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;[Please enter your username and password].&gt; but was:&lt;[ERROR: Login failed because your IP address has been blocked. Please contact the administrator].&gt;
-	at OnlineStore.StepDefinitions.checkNotice(StepDefinitions.java:196)
-	at ✽.Then a notice message should appear(OnlineStore/LogIn.feature:21)
-</failure>
-  </testcase>
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Correct username and empty password" time="6.854" />
-  <testcase classname="Scenario: Search existing item" name="Given home page of the e-commerce website" time="0.0" />
-  <testcase classname="Scenario: Search existing item" name="When I search magic mouse" time="0.0" />
+  <testcase classname="Scenario: Correct username and empty password" name="When I log in without username and password" time="0.0" />
+  <testcase classname="Scenario: Correct username and empty password" name="Then a notice message should appear" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Correct username and empty password" time="5.849" />
+  <testcase classname="Scenario: Search existing item" name="Given a search box" time="0.0" />
+  <testcase classname="Scenario: Search existing item" name="When I search for an existing product" time="0.0" />
   <testcase classname="Scenario: Search existing item" name="Then I should see the product listed in the result" time="0.0" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Search existing item" time="6.097" />
-  <testcase classname="Scenario: Search non-existing item" name="Given home page of the e-commerce website" time="0.0" />
-  <testcase classname="Scenario: Search non-existing item" name="When I search iphone7" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Search existing item" time="7.711" />
+  <testcase classname="Scenario: Search non-existing item" name="Given a search box" time="0.001" />
+  <testcase classname="Scenario: Search non-existing item" name="When I search for a non-existing product" time="0.0" />
   <testcase classname="Scenario: Search non-existing item" name="Then I should see the notice of nothing matched" time="0.0" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Search non-existing item" time="10.902" />
-  <testcase classname="Scenario: Search nothing" name="Given home page of the e-commerce website" time="0.0" />
-  <testcase classname="Scenario: Search nothing" name="When I search with empty search box" time="0.001" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Search non-existing item" time="10.065" />
+  <testcase classname="Scenario: Search nothing" name="Given a search box" time="0.0" />
+  <testcase classname="Scenario: Search nothing" name="When I search with empty search box" time="0.0" />
   <testcase classname="Scenario: Search nothing" name="Then I should still see some products displaying in the result" time="0.0" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Search nothing" time="8.914" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Search nothing" time="9.903" />
   <testcase classname="Scenario: Add an item and then check out" name="Given that I am on iPhone 5 product page" time="0.0" />
   <testcase classname="Scenario: Add an item and then check out" name="When I add an iPhone 5 and click check out" time="0.0" />
   <testcase classname="Scenario: Add an item and then check out" name="Then the iPhone 5 is added to the shopping cart" time="0.0" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Add an item and then check out" time="17.149" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Add an item and then check out" time="16.041" />
   <testcase classname="Scenario: Add an item and then continue shopping" name="Given that I am on iPhone 5 product page" time="0.0" />
   <testcase classname="Scenario: Add an item and then continue shopping" name="When I add an iPhone 5 and continue shopping" time="0.0" />
   <testcase classname="Scenario: Add an item and then continue shopping" name="Then I will stay in current page and iPhone 5 is added to the shopping cart" time="0.0" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Add an item and then continue shopping" time="20.336" />
-  <testcase classname="Scenario: Remove an item" name="Given a shopping cart with only one Magic Mouse" time="0.001" />
-  <testcase classname="Scenario: Remove an item" name="When I remove a Magic Mouse" time="0.001" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Add an item and then continue shopping" time="9.113" />
+  <testcase classname="Scenario: Remove an item" name="Given a shopping cart with only one Magic Mouse" time="0.0" />
+  <testcase classname="Scenario: Remove an item" name="When I remove a Magic Mouse" time="0.0" />
   <testcase classname="Scenario: Remove an item" name="Then the Magic Mouse should not appear in shopping cart" time="0.0" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Remove an item" time="11.913" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Remove an item" time="12.952" />
   <testcase classname="Scenario: Increase quantity of an item" name="Given a shopping cart with an iPhone 5" time="0.0" />
   <testcase classname="Scenario: Increase quantity of an item" name="When I increase the quantity of iphone 5 from 1 to 2" time="0.0" />
   <testcase classname="Scenario: Increase quantity of an item" name="Then iPhone 5 quantity and total should be updated" time="0.0" />
-  <testcase classname="junit.framework.TestSuite" name="Scenario: Increase quantity of an item" time="19.576" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Increase quantity of an item" time="19.1" />
   <system-out><![CDATA[
-[31mFailed scenarios:[0m
-[31mOnlineStore/LogIn.feature:18 [0m# Scenario: Correct username and empty password
-
-10 Scenarios ([31m1 failed[0m, [32m9 passed[0m)
-30 Steps ([31m1 failed[0m, [32m29 passed[0m)
-2m3.792s
-
-junit.framework.ComparisonFailure: expected:<[Please enter your username and password].> but was:<[ERROR: Login failed because your IP address has been blocked. Please contact the administrator].>
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at OnlineStore.StepDefinitions.checkNotice(StepDefinitions.java:196)
-	at ✽.Then a notice message should appear(OnlineStore/LogIn.feature:21)
+10 Scenarios ([32m10 passed[0m)
+30 Steps ([32m30 passed[0m)
+1m44.451s
 
 ]]></system-out>
-  <system-err><![CDATA[1476942710183	geckodriver	INFO	Listening on 127.0.0.1:26441
-Oct 20, 2016 1:51:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1476970854662	geckodriver	INFO	Listening on 127.0.0.1:4158
+Oct 20, 2016 9:40:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942710273	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.kEIunoPNRfzZ
-1476942710274	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942710276	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50970
-1476942710770	Marionette	INFO	Listening on port 50970
-1476942711768	Marionette	INFO	startBrowser c7bd435f-a113-2647-80a4-18ab1e5f4658
-Oct 20, 2016 1:51:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1476970854757	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.SPVHdCQ4vKAR
+1476970854757	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970854760	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53990
+1476970855299	Marionette	INFO	Listening on port 53990
+1476970856296	Marionette	INFO	startBrowser 34243e33-4580-534a-b7f3-3e468c2fe775
+Oct 20, 2016 9:40:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 20135] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20135] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1476970860746	geckodriver	INFO	Listening on 127.0.0.1:9952
+Oct 20, 2016 9:41:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476970860751	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.ysNJFXlYxX2M
+1476970860752	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970860753	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54118
+1476970861187	Marionette	INFO	Listening on port 54118
+1476970862147	Marionette	INFO	startBrowser 251217ba-3f0a-c947-ae72-72aea36c4ff2
+Oct 20, 2016 9:41:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 20140] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20140] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1476970867957	geckodriver	INFO	Listening on 127.0.0.1:12927
+Oct 20, 2016 9:41:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476970867961	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.452PhfcLG216
+1476970867962	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970867964	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54263
+1476970868440	Marionette	INFO	Listening on port 54263
+1476970869390	Marionette	INFO	startBrowser 18b1dc14-6347-f94d-a43f-1d19b3d50fa1
+Oct 20, 2016 9:41:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 20144] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20144] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+Oct 20, 2016 9:41:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476970873806	geckodriver	INFO	Listening on 127.0.0.1:40117
+1476970873809	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.E1pMkHz1fGJW
+1476970873810	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970873812	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54398
+1476970874278	Marionette	INFO	Listening on port 54398
+1476970875244	Marionette	INFO	startBrowser 190556b4-af14-a641-9210-179433a31306
+Oct 20, 2016 9:41:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 20147] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20147] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1476970881515	geckodriver	INFO	Listening on 127.0.0.1:28490
+Oct 20, 2016 9:41:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476970881518	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.zAnLTwf5xGk2
+1476970881519	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970881520	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54533
+1476970881967	Marionette	INFO	Listening on port 54533
+1476970882929	Marionette	INFO	startBrowser 6ba4a1b1-ccd2-c34b-8f27-89b532bf3aad
+Oct 20, 2016 9:41:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 20150] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20150] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1476970891582	geckodriver	INFO	Listening on 127.0.0.1:42173
+Oct 20, 2016 9:41:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476970891585	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.hN8HawF9UrR2
+1476970891586	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970891588	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54670
+1476970892037	Marionette	INFO	Listening on port 54670
+1476970892952	Marionette	INFO	startBrowser e82cdcc3-6107-4245-997d-3fb8e6615991
+Oct 20, 2016 9:41:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 20154] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20154] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+Oct 20, 2016 9:41:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476970901486	geckodriver	INFO	Listening on 127.0.0.1:4240
+1476970901490	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.6OBFXmd0ds51
+1476970901491	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970901492	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54804
+1476970901960	Marionette	INFO	Listening on port 54804
+1476970902886	Marionette	INFO	startBrowser 1036043b-aa16-6749-9fc7-0bef3f591266
+Oct 20, 2016 9:41:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 20157] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20157] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1476970917525	geckodriver	INFO	Listening on 127.0.0.1:17591
+Oct 20, 2016 9:41:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476970917529	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.wIBXXeia2VwX
+1476970917529	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970917531	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54952
+1476970917973	Marionette	INFO	Listening on port 54952
+1476970918923	Marionette	INFO	startBrowser 409fb583-88db-7a47-9ff5-5a7ab5511b2d
+Oct 20, 2016 9:41:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 20160] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20160] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1476970926640	geckodriver	INFO	Listening on 127.0.0.1:14097
+Oct 20, 2016 9:42:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476970926643	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.rJ3X7HNnjeSW
+1476970926644	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970926645	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55101
+1476970927123	Marionette	INFO	Listening on port 55101
+1476970928105	Marionette	INFO	startBrowser e30524d0-c8a8-9549-812d-2bd541cfdafb
+Oct 20, 2016 9:42:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 19354] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19354] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-1476942722067	geckodriver	INFO	Listening on 127.0.0.1:4707
-Oct 20, 2016 1:52:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[Child 20164] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20164] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1476970939591	geckodriver	INFO	Listening on 127.0.0.1:35092
+Oct 20, 2016 9:42:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942722072	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.TE7blrk2GsbB
-1476942722073	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942722074	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51117
-1476942722605	Marionette	INFO	Listening on port 51117
-1476942723548	Marionette	INFO	startBrowser a8b032fb-837c-5842-ad6e-7aa4760b6790
-Oct 20, 2016 1:52:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[Child 19359] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19359] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-1476942731907	geckodriver	INFO	Listening on 127.0.0.1:33759
-Oct 20, 2016 1:52:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942731911	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.LcUr9CkIRsdg
-1476942731911	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942731913	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51252
-1476942732419	Marionette	INFO	Listening on port 51252
-1476942733476	Marionette	INFO	startBrowser 23c44642-af81-504d-819a-d8ee420497df
-Oct 20, 2016 1:52:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[Child 19362] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19362] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-1476942738760	geckodriver	INFO	Listening on 127.0.0.1:35124
-Oct 20, 2016 1:52:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942738765	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.BOhORwY1dX9k
-1476942738766	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942738767	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51385
-1476942739243	Marionette	INFO	Listening on port 51385
-1476942740218	Marionette	INFO	startBrowser 49b11e1b-e9fd-4d48-83b2-df79b158c88c
-Oct 20, 2016 1:52:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1476970939595	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.CJGB5DtdOUvl
+1476970939595	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1476970939597	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55268
+1476970940044	Marionette	INFO	Listening on port 55268
+1476970940998	Marionette	INFO	startBrowser 9cc6c959-bfd3-9c4c-9ddc-62e8859fd365
+Oct 20, 2016 9:42:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 19365] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19365] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-1476942744857	geckodriver	INFO	Listening on 127.0.0.1:21337
-Oct 20, 2016 1:52:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942744860	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.Woj1Slis5pRB
-1476942744861	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942744862	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51519
-1476942745331	Marionette	INFO	Listening on port 51519
-1476942746320	Marionette	INFO	startBrowser 6202b263-531e-3d4d-88fe-8d4b26105494
-Oct 20, 2016 1:52:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[Child 19368] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19368] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-1476942755759	geckodriver	INFO	Listening on 127.0.0.1:44463
-Oct 20, 2016 1:52:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942755762	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.yzAYS8MQgXav
-1476942755763	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942755765	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51658
-1476942756239	Marionette	INFO	Listening on port 51658
-1476942757252	Marionette	INFO	startBrowser c90eed40-4a81-7642-ad16-7219abddd6ef
-Oct 20, 2016 1:52:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[Child 19371] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19371] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-1476942764676	geckodriver	INFO	Listening on 127.0.Oct 20, 2016 1:52:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-0.1:1255
-1476942764679	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.AXPFMi4Or0OM
-1476942764680	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942764681	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51793
-1476942765149	Marionette	INFO	Listening on port 51793
-1476942766125	Marionette	INFO	startBrowser 54e5fd0c-79ae-2540-be5c-f571071edcd0
-Oct 20, 2016 1:52:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 19374] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 677
-[Child 19374] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 677
-[Child 19374] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19374] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-1476942781826	geckodriver	INFO	Listening on 127.0.0.1:45661
-Oct 20, 2016 1:53:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942781831	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.RY10n0WX4Fo9
-1476942781832	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942781835	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51903
-1476942782317	Marionette	INFO	Listening on port 51903
-1476942783344	Marionette	INFO	startBrowser 62df1c46-5d54-814f-8c73-bb5263c6f037
-Oct 20, 2016 1:53:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 19379] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19379] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-Oct 20, 2016 1:53:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942802160	geckodriver	INFO	Listening on 127.0.0.1:8801
-1476942802165	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.ryORN52HY7t3
-1476942802166	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942802171	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52069
-1476942802651	Marionette	INFO	Listening on port 52069
-1476942803668	Marionette	INFO	startBrowser feb133f8-0099-4c44-a1eb-819647b1315f
-Oct 20, 2016 1:53:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 19383] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19383] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-Oct 20, 2016 1:53:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476942814079	geckodriver	INFO	Listening on 127.0.0.1:36806
-1476942814084	mozprofile::profile	INFO	Using profile path /var/folders/q3/h3n65cb91598wcs0q_lwpnfm0000gn/T/rust_mozprofile.MjB52hqsCssJ
-1476942814084	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1476942814086	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52234
-1476942814558	Marionette	INFO	Listening on port 52234
-1476942815530	Marionette	INFO	startBrowser 928c1c13-03d3-4b4d-bd36-dc0c292048a6
-Oct 20, 2016 1:53:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[Child 19386] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
-[Child 19386] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20168] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 20168] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
 ]]></system-err>
 </testsuite>

@@ -4,6 +4,7 @@ At the beginning, when I download NetBeans project from github, all my tests ski
 
 When I began to run my tests, some of my tests failed. I tried to figure out whether this is because I get the wrong element or the driver ran so fast that it didn't wait for the page to load. Then, I set the break point in StepDefinition.java and then debug test file to run my code step by step. After doing this, I knew the problem is that the driver didn't wait enough time. Then I use wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xxx))) to let the driver wait until the element appear and then do the next step. In some cases, there is no specific element appearing to define the waiting time, so I use Thread.sleep() to force the driver to wait. When the driver waits enough time, all my tests passed.
 
+
 1. User Story:
     As a user,
     I want to use my shopping cart,
@@ -49,14 +50,14 @@ Scenarios:
     So that I can easily find the product I want.
 
 Scenarios:
-(1) Given home page of the e-commerce website,
-    When I search magic mouse,
+(1) Given a search box,
+    When I search for an existing product,
     Then I should see the product listed in the result.
 
-(2) Given home page of the e-commerce website,
-    When I search iphone7,
+(2) Given a search box,
+    When I search for a non-existing product,
     Then I should see the notice of nothing matched.
 
-(3) Given home page of the e-commerce website,
+(3) Given a search box,
     When I search with empty search box,
     Then I should still see some products displaying in the result.

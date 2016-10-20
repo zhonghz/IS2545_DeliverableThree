@@ -72,11 +72,13 @@ public class StepDefinitions {
     @Then("I will stay in current page and iPhone 5 is added to the shopping cart")
     public void afterContinueShopping() {
         WebElement title = driver.findElement(By.cssSelector("h1.prodtitle"));
+        //check if stay in current page
         assertEquals("iPhone 5",title.getText());
         wait = new WebDriverWait(driver, 15);
         driver.get("http://store.demoqa.com/products-page/checkout/");
         WebElement cart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.slide1")));
         String str = cart.getText();
+        //check if iphone5 is in shopping cart
         assertTrue(str.contains("iPhone 5"));  
     }
     
@@ -197,15 +199,15 @@ public class StepDefinitions {
     }
     
     //Begin to Define Search Feature
-    @Given("home page of the e-commerce website")
-    public void openHomePage() {
+    @Given("a search box")
+    public void findSearchBox() {
         System.setProperty("webdriver.gecko.driver", "libs/geckodriver");
         //System.setProperty("webdriver.gecko.driver", "libs\\geckodriver.exe");
         driver = new FirefoxDriver();
         wait = new WebDriverWait(driver, 30);
         driver.get(HOME_PAGE);
     }
-    @When("I search magic mouse")
+    @When("I search for an existing product")
     public void searchMagicMouse() {
         WebElement searchbox = driver.findElement(By.name("s"));
         searchbox.clear();
@@ -219,7 +221,7 @@ public class StepDefinitions {
         WebElement result = driver.findElement(By.cssSelector("div.product_grid_display.group"));
         assertTrue(result.getText().contains("Magic Mouse"));
     }
-    @When("I search iphone7")
+    @When("I search for a non-existing product")
     public void searchiPhone7() {
         WebElement searchbox = driver.findElement(By.name("s"));
         searchbox.clear();
