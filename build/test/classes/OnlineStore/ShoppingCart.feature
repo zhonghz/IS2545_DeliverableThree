@@ -8,7 +8,7 @@ So that I can get the information before checkout
         Scenario: Add an item and then check out
                 Given that I am on iPhone 5 product page
                 When I add an iPhone 5 and click check out
-                Then the iPhone 5 is added to the shopping cart
+                Then the iPhone 5 is added to the shopping cart and sub-total of shopping cart is correct
 
         Scenario: Add an item and then continue shopping
                 Given that I am on iPhone 5 product page

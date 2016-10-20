@@ -52,12 +52,14 @@ public class StepDefinitions {
         goToCart.click();
     }
        
-    @Then("the iPhone 5 is added to the shopping cart")
+    @Then("the iPhone 5 is added to the shopping cart and sub-total of shopping cart is correct")
     public void checkShoppingCart() {
         wait = new WebDriverWait(driver, 15);
         WebElement cart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.slide1")));
         String str = cart.getText();
-        assertTrue(str.contains("iPhone 5"));  
+        assertTrue(str.contains("iPhone 5"));
+        WebElement subtotal = driver.findElement(By.cssSelector("span.pricedisplay"));
+        assertEquals("$12.00", subtotal.getText());
     }
     
     @When("I add an iPhone 5 and continue shopping")
@@ -85,6 +87,7 @@ public class StepDefinitions {
     @Given("a shopping cart with only one Magic Mouse")
     public void shoppingCart() {
         System.setProperty("webdriver.gecko.driver", "libs/geckodriver");
+        //System.setProperty("webdriver.gecko.driver", "libs\\geckodriver.exe");
         driver = new FirefoxDriver();
         wait = new WebDriverWait(driver, 15);
         driver.get("http://store.demoqa.com/products-page/product-category/accessories/magic-mouse/");
@@ -114,6 +117,7 @@ public class StepDefinitions {
     @Given("a shopping cart with an iPhone 5")
     public void shoppingCartwithItem() {
         System.setProperty("webdriver.gecko.driver", "libs/geckodriver");
+        //System.setProperty("webdriver.gecko.driver", "libs\\geckodriver.exe");
         driver = new FirefoxDriver();
         wait = new WebDriverWait(driver, 15);
         driver.get("http://store.demoqa.com/products-page/product-category/n/");
@@ -146,6 +150,7 @@ public class StepDefinitions {
     @Given("log in page of the e-commerce website")
     public void openLoginPage() {
         System.setProperty("webdriver.gecko.driver", "libs/geckodriver");
+        //System.setProperty("webdriver.gecko.driver", "libs\\geckodriver.exe");
         driver = new FirefoxDriver();
         wait = new WebDriverWait(driver, 30);
         driver.get("http://store.demoqa.com/products-page/your-account/");

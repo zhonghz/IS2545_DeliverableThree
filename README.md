@@ -4,6 +4,8 @@ At the beginning, when I download NetBeans project from github, all my tests ski
 
 When I began to run my tests, some of my tests failed. I tried to figure out whether this is because I get the wrong element or the driver ran so fast that it didn't wait for the page to load. Then, I set the break point in StepDefinition.java and then debug test file to run my code step by step. After doing this, I knew the problem is that the driver didn't wait enough time. Then I use wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xxx))) to let the driver wait until the element appear and then do the next step. In some cases, there is no specific element appearing to define the waiting time, so I use Thread.sleep() to force the driver to wait. When the driver waits enough time, all my tests passed.
 
+Note: I am using Mac to finish this deliverable, please comment "System.setProperty("webdriver.gecko.driver", "libs/geckodriver");" and uncomment "System.setProperty("webdriver.gecko.driver", "libs\\geckodriver.exe");" in all @Given methods to make the project run on Windows system.
+
 
 1. User Story:
     As a user,
@@ -12,7 +14,7 @@ When I began to run my tests, some of my tests failed. I tried to figure out whe
 
 (1) Given that I am on iPhone 5 product page,
     When I add an iPhone 5 and click check out,
-    Then the iPhone 5 is added to the shopping cart.
+    Then the iPhone 5 is added to the shopping cart and sub-total of shopping cart is correct.
 
 (2) Given that I am on iPhone 5 product page,
     When I add an iPhone 5 and continue shopping,

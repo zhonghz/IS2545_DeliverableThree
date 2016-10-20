@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="ZhideMacBook-Pro.local" name="OnlineStore.StepDefinitions" skipped="0" tests="1" time="0.106" timestamp="2016-10-20T13:40:48">
+<testsuite errors="1" failures="0" hostname="ZhideMacBook-Pro.local" name="OnlineStore.StepDefinitions" skipped="0" tests="1" time="0.111" timestamp="2016-10-20T14:12:53">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -66,7 +66,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner OnlineStore.StepDefinitions skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Huizhi/IS2545_DeliverableThree/build/test/results/TEST-OnlineStore.StepDefinitions.xml crashfile=/Users/Huizhi/IS2545_DeliverableThree/build/junitvmwatcher9055066833954971830.properties propsfile=/Users/Huizhi/IS2545_DeliverableThree/build/junit8374419360245163735.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner OnlineStore.StepDefinitions skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Huizhi/IS2545_DeliverableThree/build/test/results/TEST-OnlineStore.StepDefinitions.xml crashfile=/Users/Huizhi/IS2545_DeliverableThree/build/junitvmwatcher4689212983770603058.properties propsfile=/Users/Huizhi/IS2545_DeliverableThree/build/junit3189204749634549726.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -115,7 +115,7 @@
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.maven-pom" value="" />
-    <property name="javac.includesfile.binary" value="/Users/Huizhi/IS2545_DeliverableThree/null421025579" />
+    <property name="javac.includesfile.binary" value="/Users/Huizhi/IS2545_DeliverableThree/null93692619" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="true" />
     <property name="javac.test.processorpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar:libs/selenium-server-standalone-3.0.0.jar:build/classes:/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/platform/modules/ext/junit-4.12.jar:/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/platform/modules/ext/hamcrest-core-1.3.jar" />
